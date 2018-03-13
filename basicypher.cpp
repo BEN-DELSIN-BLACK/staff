@@ -10,9 +10,9 @@ char result[500];
 void read()
 {
 	scanf("%s",cypher);
-	cout<<"×óÒÆ(1)orÓÒÒÆ(2)£¿"<<endl;
+	cout<<"å·¦ç§»(1)orå³ç§»(2)"<<endl;
 	cin>>fangxiang;
-	cout<<"ÒÆ¶¯¼¸Î»£¿"<<endl;
+	cout<<"ç§»åŠ¨å‡ ä½?"<<endl;
 	cin>>weishu; 
 }
 
