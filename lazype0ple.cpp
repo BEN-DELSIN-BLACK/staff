@@ -11,12 +11,12 @@ void fenge()
 void hint()
 {
 	cout<<"Which programme do you want to start?"<<endl;
-	cout<<"1.pan download"<<endl<<"2.Steam¼ÓËÙÆ÷"<<endl;
-	cout<<"3.ÌÚÑ¶¼ÓËÙÆ÷"<<endl; 
-	cout<<"4.ASF"<<endl<<"5.bÕ¾Ö±²¥¼§"<<endl;
-	cout<<"6.tools"<<endl<<"7.Ñ¸À×ÏÂÔØ"<<endl;
-	cout<<"8.videos"<<endl<<"9.qqÏÂÔØÎÄ¼þ¼Ð"<<endl;
-	cout<<"10.ÏÔÊ¾ÌáÊ¾"<<endl;
+	cout<<"1.pan download"<<endl<<"2.SteamåŠ é€Ÿå™¨"<<endl;
+	cout<<"3.è…¾è®¯åŠ é€Ÿå™¨"<<endl; 
+	cout<<"4.ASF"<<endl<<"5.bç«™ç›´æ’­å§¬"<<endl;
+	cout<<"6.tools"<<endl<<"7.è¿…é›·ä¸‹è½½"<<endl;
+	cout<<"8.videos"<<endl<<"9.qqä¸‹è½½æ–‡ä»¶å¤¹"<<endl;
+	cout<<"10.æ˜¾ç¤ºæç¤º"<<endl;
 	fenge();
 }
 int main()
@@ -29,7 +29,7 @@ int main()
 		if(temp==1)
 			system("\"D:\\tools\\pan download\\PanDownload.exe\"");
 		else if(temp==2)
-			system("D:\\tools\\Steam¼ÓËÙÆ÷_3.0\\STEAM¼ÓËÙÆ÷.exe");
+			system("D:\\tools\\SteamåŠ é€Ÿå™¨_3.0\\STEAMåŠ é€Ÿå™¨.exe");
 		else if(temp==3)
 			system("\"D:\\tencent jiasuqi\\QMProxyAccelerator\\1.0.338.134\\QMProxyAcceler.exe\"");
 		else if(temp==4)
@@ -39,7 +39,7 @@ int main()
 		else if(temp==6)
 			system("start D:\\tools");
 		else if(temp==7)
-			system("start D:\\Ñ¸À×ÏÂÔØ");
+			system("start D:\\è¿…é›·ä¸‹è½½");
 		else if(temp==8)
 			system("start D:\\videos");
 		else if(temp==9)
