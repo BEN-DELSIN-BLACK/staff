@@ -4,12 +4,14 @@ char divide='-';
 int temp;
 void fenge()
 {
+	//分割
 	for(int i=1;i<=40;i++)
 		cout<<divide;
 	cout<<endl;
 }
 void hint()
-{
+{	
+	//显示提示
 	cout<<"Which programme do you want to start?"<<endl;
 	cout<<"1.pan download"<<endl<<"2.Steam加速器"<<endl;
 	cout<<"3.腾讯加速器"<<endl; 
