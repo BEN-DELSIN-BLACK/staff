@@ -2,6 +2,11 @@
 using namespace std;
 char divide='-';
 int temp;
+void utf8()
+{
+	//让控制台支持utf8编码
+	system("chcp 65001");     
+}
 void fenge()
 {
 	//分割
@@ -23,6 +28,7 @@ void hint()
 }
 int main()
 {
+	utf8();
 	hint();
 	while(1)
 	{	
