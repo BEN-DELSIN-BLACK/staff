@@ -4,6 +4,7 @@
 using namespace std;
 int main()
 {
+    system("chcp 65001");
     int ttime;
     char code[50];
     cout<<"请输入关机等待时间(秒)";
