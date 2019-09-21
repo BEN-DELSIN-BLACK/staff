@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdio>
 #include <cstring>
+#include <windows.h>
 using namespace std;
 
 int fangxiang,weishu;
@@ -47,6 +48,7 @@ void clean()
 
 int main()
 {
+	system("chcp 65001")
 	while(1)
 	{
 		read();
